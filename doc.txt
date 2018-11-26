@@ -1,0 +1,14 @@
+To upload to heroku
+1.  Set "start" script in package.json
+2.  Set "engine" and "node" version in package.json
+3.  Push the project to git
+4.  "heroku create"
+5.  "git push heroku master"
+
+Chat Room
+1.  [socket.emit] 
+    -> Emit to the current tab
+2.  [socket.broadcast.emit] 
+    -> Emit to all the other tabs but not the current tab
+3.  [io.emit]
+    -> Emit to all the tabs (both current and others)
