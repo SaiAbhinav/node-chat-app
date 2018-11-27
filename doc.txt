@@ -12,3 +12,9 @@ Chat Room
     -> Emit to all the other tabs but not the current tab
 3.  [io.emit]
     -> Emit to all the tabs (both current and others)
+
+// socket.leave(params.room);
+
+// io.emit -> io.to('The Office Fans').emit
+// socket.broadcast.emit -> socket.broadcast.to('The Office Fans').emit
+// socket.emit
